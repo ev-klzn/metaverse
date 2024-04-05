@@ -402,10 +402,16 @@ body {
   opacity: 1
 }
 .hero__stars {
+  opacity: 0;
+  transition: all .2s;
   position: absolute;
   top: 30%;
   left: 0;
   pointer-events: none
+}
+.hero__stars._watcher-view {
+  transition: all .8s ease .5s;
+  opacity: 1
 }
 .actions {
   display: flex;
