@@ -238,7 +238,7 @@ body {
   position: fixed;
   width: 100%;
   z-index: 50;
-  background: var(--1,linear-gradient(180deg,#010208 16.39%,#010206 20.51%,#040008 24.79%,#010101 30.46%,#010101 34.11%,#010101 36.21%,#010101 100%))
+  background-color: #010208
 }
 .header__container {
   position: relative;
@@ -933,7 +933,7 @@ body {
     top: 0;
     overflow: auto;
     padding: 6.25rem .9375rem .9375rem 1.875rem;
-    background: var(--1,linear-gradient(180deg,#010208 16.39%,#010206 20.51%,#040008 24.79%,#010101 30.46%,#010101 34.11%,#010101 36.21%,#010101 100%));
+    background-color: #010208;
     display: grid;
     grid-template-rows: 1fr auto;
     transition: left .3s
