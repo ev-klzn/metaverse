@@ -8,7 +8,7 @@
 	<meta name="description" content="MetaV - Explore the future of the Metaverse">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20240405104414">
+	<link rel="stylesheet" href="css/style.min.css?_v=20240405145719">
 	<link rel="shortcut icon" href="favicon.ico">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -63,17 +63,23 @@
 										<a href="#" class="button">Get Started</a>
 										<a href="#" class="button button--transparent">Explore Now</a>
 									</div>
-									<ul class="hero__stats stats">
-										<li class="stats__item">
-											<div class="stats__value">29<span>K+</span></div>
+									<ul class="hero__stats stats counters">
+										<li class="stats__item counters__item">
+											<div data-watch class="stats__value">
+												<span data-digits-counter>29</span>K
+											</div>
 											<div class="stats__label">Artworks</div>
 										</li>
-										<li class="stats__item">
-											<div class="stats__value">18<span>K+</span></div>
+										<li class="stats__item counters__item">
+											<div data-watch class="stats__value">
+												<span data-digits-counter>18</span>K
+											</div>
 											<div class="stats__label">Artists</div>
 										</li>
-										<li class="stats__item">
-											<div class="stats__value">25<span>K+</span></div>
+										<li class="stats__item counters__item">
+											<div data-watch class="stats__value">
+												<span data-digits-counter>25</span>K
+											</div>
 											<div class="stats__label">Auction</div>
 										</li>
 									</ul>
@@ -82,17 +88,22 @@
 						</div>
 					</div>
 					<div class="hero__img">
-						<picture><source srcset="img/hero-img.webp" type="image/webp"><img src="img/hero-img.png" alt="hero image"></picture>
+						<div data-watch class="hero__img-trs">
+							<picture><source srcset="img/hero-img.webp" type="image/webp"><img class="hero__img-trans" src="img/hero-img.png" alt="hero image"></picture>
+						</div>
+						<div class="hero__stars">
+							<img src="img/stars.svg" alt="Image">
+						</div>
 					</div>
 				</div>
 			</section>
 			<section class="page__what what">
 				<div class="what__container">
 					<div class="what__images">
-						<div class="what__img-1">
+						<div data-watch class="what__img-1">
 							<picture><source srcset="img/what-01.webp" type="image/webp"><img src="img/what-01.jpg" alt="Image"></picture>
 						</div>
-						<div class="what__img-2">
+						<div data-watch class="what__img-2">
 							<picture><source srcset="img/what-02.webp" type="image/webp"><img src="img/what-02.jpg" alt="Image"></picture>
 						</div>
 					</div>
@@ -127,12 +138,14 @@
 						</p>
 					</div>
 					<div class="work__list">
-						<article class="work__item item">
-							<div class="item__img">
-								<picture><source srcset="img/work-01.webp" type="image/webp"><img src="img/work-01.jpg" alt="Image"></picture>
-							</div>
+						<article data-watch class="work__item item">
+							<a href="#" class="item__img">
+								<picture><source srcset="img/work-01.webp" type="image/webp"><img class="item__image" src="img/work-01.jpg" alt="Image"></picture>
+							</a>
 							<div class="item__body">
-								<h3 class="item__title">Discuss with Colleagues</h3>
+								<h3 class="item__title">
+									<a href="#">Discuss with Colleagues</a>
+								</h3>
 								<div class="item__text text">
 									<p>
 										Working online is the same experience as work ing in an
@@ -145,12 +158,14 @@
 								</div>
 							</div>
 						</article>
-						<article class="work__item item">
-							<div class="item__img">
-								<picture><source srcset="img/work-02.webp" type="image/webp"><img src="img/work-02.jpg" alt="Image"></picture>
-							</div>
+						<article data-watch class="work__item item">
+							<a href="#" class="item__img">
+								<picture><source srcset="img/work-02.webp" type="image/webp"><img class="item__image" src="img/work-02.jpg" alt="Image"></picture>
+							</a>
 							<div class="item__body">
-								<h3 class="item__title">Virtual Reality Concert</h3>
+								<h3 class="item__title">
+									<a href="#">Virtual Reality Concert</a>
+								</h3>
 								<div class="item__text text">
 									<p>
 										Watching concerts virtually is one of the things that can
@@ -163,12 +178,12 @@
 								</div>
 							</div>
 						</article>
-						<article class="work__item item">
-							<div class="item__img">
-								<picture><source srcset="img/work-03.webp" type="image/webp"><img src="img/work-03.jpg" alt="Image"></picture>
-							</div>
+						<article data-watch class="work__item item">
+							<a href="#" class="item__img">
+								<picture><source srcset="img/work-03.webp" type="image/webp"><img class="item__image" src="img/work-03.jpg" alt="Image"></picture>
+							</a>
 							<div class="item__body">
-								<h3 class="item__title">Playing Games</h3>
+								<h3 class="item__title"><a href="#">Playing Games</a></h3>
 								<div class="item__text text">
 									<p>
 										For gamers, the metaverse could be an interesting platform
@@ -181,12 +196,12 @@
 								</div>
 							</div>
 						</article>
-						<article class="work__item item">
-							<div class="item__img">
-								<picture><source srcset="img/work-04.webp" type="image/webp"><img src="img/work-04.jpg" alt="Image"></picture>
-							</div>
+						<article data-watch class="work__item item">
+							<a href="#" class="item__img">
+								<picture><source srcset="img/work-04.webp" type="image/webp"><img class="item__image" src="img/work-04.jpg" alt="Image"></picture>
+							</a>
 							<div class="item__body">
-								<h3 class="item__title">Online Travel</h3>
+								<h3 class="item__title"><a href="#">Online Travel</a></h3>
 								<div class="item__text text">
 									<p>
 										With cyberspace, online travel is certainly not
@@ -199,12 +214,12 @@
 								</div>
 							</div>
 						</article>
-						<article class="work__item item">
-							<div class="item__img">
-								<picture><source srcset="img/work-05.webp" type="image/webp"><img src="img/work-05.jpg" alt="Image"></picture>
-							</div>
+						<article data-watch class="work__item item">
+							<a href="#" class="item__img">
+								<picture><source srcset="img/work-05.webp" type="image/webp"><img class="item__image" src="img/work-05.jpg" alt="Image"></picture>
+							</a>
 							<div class="item__body">
-								<h3 class="item__title">Artworks</h3>
+								<h3 class="item__title"><a href="#">Artworks</a></h3>
 								<div class="item__text text">
 									<p>
 										In the past, works of art such as paintings could only be
@@ -217,12 +232,12 @@
 								</div>
 							</div>
 						</article>
-						<article class="work__item item">
-							<div class="item__img">
-								<picture><source srcset="img/work-06.webp" type="image/webp"><img src="img/work-06.jpg" alt="Image"></picture>
-							</div>
+						<article data-watch class="work__item item">
+							<a href="#" class="item__img">
+								<picture><source srcset="img/work-06.webp" type="image/webp"><img class="item__image" src="img/work-06.jpg" alt="Image"></picture>
+							</a>
 							<div class="item__body">
-								<h3 class="item__title">Digital Clothing</h3>
+								<h3 class="item__title"><a href="#">Digital Clothing</a></h3>
 								<div class="item__text text">
 									<p>
 										The community has also been active with the emergence of
@@ -238,74 +253,24 @@
 					</div>
 				</div>
 			</section>
-			<section class="page__video video">
-				<div class="video__container">
-					<h3 class="video__subtitle subtitle">
+			<section class="page__activity activity">
+				<div class="activity__container">
+					<h3 class="activity__subtitle subtitle">
 						Our Latest <span class="colored">Activity</span>
 					</h3>
-					<div class="video__text text">
+					<div class="activity__text text">
 						<p>
 							Adipiscing at in tellus integer. Pellentesque massa placerat
 							duis ultricies. Venenatis cras
 						</p>
 					</div>
-					<!-- <div class="video__swiper swiper-video swiper-container swiper">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                  <video controls>
-                    <source src="files/video-01.mp4" type="video/mp4">
-                  </video>
-                  <div class="swiper-video__overlay overlay">
-                    <button
-                      type="button"
-                      class="swiper-video__button play-button">
-                      Play
-                    </button>
-                  </div>
-                  <div class="swiper-video__bottom bottom-overlay">
-                    <h4 class="swiper-video__title">
-                      Hire me ev-klzn.github.io
-                    </h4>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <video controls>
-                    <source src="files/video-02.mp4" type="video/mp4">
-                  </video>
-                  <div class="swiper-video__overlay overlay">
-                    <button
-                      type="button"
-                      class="swiper-video__button play-button">
-                      Play
-                    </button>
-                  </div>
-                  <div class="swiper-video__bottom bottom-overlay">
-                    <h4 class="swiper-video__title">
-                      Hire me ev-klzn.github.io
-                    </h4>
-                  </div>
-                </div>
 
-              </div>
-            </div> -->
-					<!--  -->
 					<div class="activity__slider swiper">
 						<div class="activity__wrapper swiper-wrapper">
 							<div class="activity__slide swiper-slide">
 								<div class="activity__video-box">
 									<video class="activity__video video-player" preload="auto" loop playsinline -webkit-playsinline video-autoplay="true" class="activity__video">
 										<source src="files/video-01.mp4" type="video/mp4">
-									</video>
-									<button class="activity__button play _icon-play"></button>
-									<div class="activity__title-video">
-										<h5>Metaverse Fashion Week</h5>
-									</div>
-								</div>
-							</div>
-							<div class="activity__slide swiper-slide">
-								<div class="activity__video-box">
-									<video class="activity__video video-player" preload="auto" loop playsinline -webkit-playsinline video-autoplay="true" class="activity__video">
-										<source src="./files/video-02.mp4" type="video/mp4">
 									</video>
 									<button class="activity__button play _icon-play"></button>
 									<div class="activity__title-video">
@@ -330,11 +295,78 @@
 			</section>
 		</main>
 		<footer class="footer">
-			<div class="footer__container"></div>
+			<div class="footer__container">
+				<div class="footer__column">
+					<h2 class="footer__logo colored">MetaV</h2>
+					<div class="footer__text">
+						<p>
+							Adipiscing at in tellus integer. Pellentesque massa placerat duis
+							ultricies lacus. Nisi porta lorem mollis aliquam ut porttitor
+						</p>
+					</div>
+				</div>
+				<div class="footer__column">
+					<h4 class="footer__subtitle">About Us</h4>
+					<ul class="footer__list">
+						<li class="footer__item">
+							<a href="#" class="footer__link">About MetaV</a>
+						</li>
+						<li class="footer__item">
+							<a href="#" class="footer__link">Contact Us</a>
+						</li>
+						<li class="footer__item"><a href="#" class="footer__link">FAQ</a></li>
+						<li class="footer__item">
+							<a href="#" class="footer__link">Privacy Policy</a>
+						</li>
+						<li class="footer__item">
+							<a href="#" class="footer__link">Terms of Service</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer__column">
+					<h4 class="footer__subtitle">Services</h4>
+					<ul class="footer__list">
+						<li class="footer__item">
+							<a href="#" class="footer__link">NFT Marketplace</a>
+						</li>
+						<li class="footer__item">
+							<a href="#" class="footer__link">Virtual Concert</a>
+						</li>
+						<li class="footer__item">
+							<a href="#" class="footer__link">Gaming</a>
+						</li>
+						<li class="footer__item">
+							<a href="#" class="footer__link">Artwork</a>
+						</li>
+						<li class="footer__item">
+							<a href="#" class="footer__link">Online Travel</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer__column">
+					<h4 class="footer__subtitle">Contact</h4>
+					<ul class="footer__social social">
+						<li class="social__item">
+							<a href="#" class="social__link _icon-fb"></a>
+						</li>
+						<li class="social__item">
+							<a href="#" class="social__link _icon-ins"></a>
+						</li>
+						<li class="social__item">
+							<a href="#" class="social__link _icon-in"></a>
+						</li>
+					</ul>
+					<div>
+						Made by
+						<a target="_blank" class="footer__copy" href="https://ev-klzn.github.io/">ev-klzn</a>
+						@2024
+					</div>
+				</div>
+			</div>
 		</footer>
 
 	</div>
-	<script src="js/app.min.js?_v=20240405104414"></script>
+	<script src="js/app.min.js?_v=20240405145719"></script>
 </body>
 
 </html>
