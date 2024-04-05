@@ -343,6 +343,16 @@ body {
   border: 2px solid #fff;
   transition: all .3s
 }
+.spollers__title {
+  font-family: Orbitron;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: .9375rem
+}
+.spollers__body {
+  display: grid;
+  gap: .9375rem
+}
 .page {
   display: flex;
   flex-direction: column
@@ -748,6 +758,11 @@ body {
 .swiper-button-lock {
   display: none!important
 }
+@media (min-width:47.99875em) {
+  .spollers__title {
+    list-style: none
+  }
+}
 @media (min-width:76.875em) {
   .title {
     font-size: 2.8125rem
@@ -914,6 +929,9 @@ body {
     text-align: center
   }
   .footer__subtitle {
+    text-align: center
+  }
+  .spollers__title {
     text-align: center
   }
   .work__list {
@@ -1093,6 +1111,9 @@ body {
     grid-template-columns: 1fr
   }
   .footer__list {
+    gap: 1.5625rem
+  }
+  .spollers__body {
     gap: 1.5625rem
   }
 }
