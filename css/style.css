@@ -576,7 +576,7 @@ body {
   transition: all .3s
 }
 .item._watcher-view {
-  transition: all .8s ease .3s;
+  transition: all .8s ease;
   -webkit-transform: translate(0,0);
   transform: translate(0,0);
   opacity: 1
