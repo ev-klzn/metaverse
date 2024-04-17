@@ -226,19 +226,19 @@ body {
 }
 .gradient--right {
   right: -27rem;
-  top: -5%;
+  top: 0;
   right: -10%
 }
 .gradient--left {
   left: -27rem;
-  top: -5%;
+  top: 0;
   left: -10%
 }
 .header {
   position: fixed;
   width: 100%;
   z-index: 50;
-  background-color: #010208
+  background-color: rgba(1,2,8,.8666666667)
 }
 .header__container {
   position: relative;
@@ -1032,6 +1032,9 @@ body {
     bottom: calc(50% - .0625rem);
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg)
+  }
+  .header {
+    background-color: #010208
   }
   .header__container {
     -webkit-column-gap: .9375rem;
