@@ -1,3 +1,3 @@
 # metaverse
 
-https://ev-klzn.github.io/metaverse/
+https://ev-klzn.com/metaverse/
